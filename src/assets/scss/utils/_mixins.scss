@@ -1,0 +1,8 @@
+$tablet-landscape-width: 992px;
+
+// Media query mixins - Tablet Landscape - 992px to up
+@mixin tablet-landscape {
+  @media (min-width: #{$tablet-landscape-width}) {
+    @content;
+  }
+}
