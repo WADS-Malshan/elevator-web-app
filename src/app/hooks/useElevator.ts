@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 
 const FLOORS = [5, 4, 3, 2, 1, 0];
 const DRIVE_DELAY_MS = 1000;
-const DOOR_DELAY_MS = 2000;
+const DOOR_DELAY_MS = 1500;
 
 // Helper: Pure function (outside component)
 const getNextDirection = (floor: number, reqs: number[], curDir: string) => {
